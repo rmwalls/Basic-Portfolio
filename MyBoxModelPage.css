@@ -1,0 +1,38 @@
+/* Setting up a Box Model, altering copied code */
+
+body {
+  margin: 0;
+}
+
+#structure * {
+  padding: 10px;
+  font-size: 20px;
+  border: 10px solid rgba(0,0,0,0.5);
+}
+
+/* specific boxes */
+
+#structure header, #structure footer {
+  background-color: green;
+  color: white;
+}
+
+#structure nav {
+  background-color: purple;
+  color: white;
+}
+
+#structure section {
+  float: left;
+  width: 400px;
+  background-color: blue;
+  color: yellow;
+}
+
+#structure aside {
+  background-color: red;
+}
+
+#structure footer {
+  clear: both;
+}
