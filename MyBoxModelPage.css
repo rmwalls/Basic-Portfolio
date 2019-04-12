@@ -5,9 +5,9 @@ body {
 }
 
 #structure * {
-  padding: 10px;
+  padding: 22px;
   font-size: 20px;
-  border: 10px solid rgba(0,0,0,0.5);
+  border: 2px solid rgba(0,0,0,0.5);
 }
 
 /* specific boxes */
@@ -35,4 +35,8 @@ body {
 
 #structure footer {
   clear: both;
+}
+
+aside > h3 {
+  margin-left: 20px;
 }
