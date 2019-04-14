@@ -1,0 +1,79 @@
+/* Setting up a Box Model, altering copied code */
+/* avoiding math */
+*, *:before, *:after {
+  box-sizing: border-box;
+  }
+
+
+Body {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: black;
+  background: #777;
+  width: 960px;
+  font-size: 18px;
+  margin: auto;
+}
+
+
+#structure * {
+  padding: 22px;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+}
+
+/* specific boxes */
+
+#structure header, #structure footer {
+  background-color: #ebebeb;
+  color: #777;
+}
+
+#structure nav {
+  background-color: #ebebeb;
+  color: #777;
+}
+
+#structure section {
+  float: left;
+  width: 495px;
+  background-color: #ebebeb;
+  color: #777;
+  display: block;
+}
+
+#structure article {
+  color: #ebebeb;
+  background: #777;
+  display: block;
+}
+
+#structure section2 {
+  color: #777;
+  background: #ebebeb;
+  display: block;
+}
+
+#structure section3 {
+  color: #777;
+  background: #ebebeb;
+  display: block;
+}
+
+#structure aside {
+  background-color: #ebebeb;
+  color: #777;
+  float: left;
+  width: 425px;
+  height: 318px;
+  display: block;
+}
+
+
+aside > h3 {
+  margin-left: 20px;
+}
+
+#structure footer {
+  clear: both;
+}
