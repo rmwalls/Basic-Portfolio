@@ -2,6 +2,32 @@
    box-sizing: border-box;
    }
 
+/* code for nav buttons */
+.topnav {
+   overflow: hidden;
+   border: 4px solid #cccccc;
+   background-color: #333;
+ }
+ 
+ .topnav a {
+   float: right;
+   color: #f2f2f2;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+ }
+ 
+ .topnav a:hover {
+   background-color: #ddd;
+   color: black;
+ }
+ 
+ .topnav a.active {
+   background-color: #4CAF50;
+   color: white;
+ }
+
    /* Need to change this to homework specifications before turning in */
 header {
    font-size: 28px; 
@@ -10,7 +36,7 @@ header {
    background-color: darkgreen;
    border: 4px solid #cccccc;
    padding: 4px;
-   margin-top: 10px;
+  /* margin-top: 10px; */
    margin-bottom: 10px;
    text-align: center;
 }
