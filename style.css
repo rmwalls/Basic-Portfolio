@@ -7,7 +7,7 @@ header {
    font-size: 28px; 
    text-shadow: 2px 2px gray;  
    color: teal;
-   background-color: lightgreen;
+   background-color: darkgreen;
    border: 4px solid #cccccc;
    padding: 4px;
    margin-top: 10px;
@@ -46,6 +46,15 @@ h3 {
    margin-bottom: 10px;
    border: 2px solid green;
    width: 17.6%;
+}
+
+main {
+   color: teal;
+   font-size: 18px;
+   border: 4px solid #cccccc;
+   padding: 4px;
+   margin-top: 10px;
+   margin-bottom: 10px;
 }
 
 #intro {
