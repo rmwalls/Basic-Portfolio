@@ -1,0 +1,77 @@
+*, *:before, *:after {
+   box-sizing: border-box;
+   }
+
+   /* Need to change this to homework specifications before turning in */
+header {
+   font-size: 28px; 
+   text-shadow: 2px 2px gray;  
+   color: teal;
+   background-color: lightgreen;
+   border: 4px solid #cccccc;
+   padding: 4px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   text-align: center;
+}
+
+.container {
+   width: 960px;
+   margin: 0 auto;
+}
+
+body {
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+   color: #080606;
+   background-image: url("assets/images/spiration-light.png");
+}
+
+h1, h2, h3 {
+   font-family: Georgia, "Times New Roman", Times, serif;
+   font-weight: bold;
+   color: #4aaaa5;
+}
+
+h2 {
+   font-size: 24px;
+}
+
+h3 {
+   font-size: 22px;
+}
+
+#headshot {
+   float: left;
+   margin-right: 4px;
+   margin-bottom: 10px;
+   border: 2px solid green;
+   width: 17.6%;
+}
+
+#intro {
+   float: left; 
+   padding: 6px;
+   width: 80%;
+   margin-top: 20px;
+}
+
+#no1 {
+   clear: both;
+   font-size: 16px;
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+   padding-top: 4px;
+}
+
+ul {
+   font-size: 16px;
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/* This is to control the 2 photos for "My Family" */
+.fam {
+   display: block;
+   float: left;
+   margin: 2px;
+   border: 2px solid red;
+   width: 49.5%;
+}
